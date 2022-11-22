@@ -4,15 +4,15 @@
     "keywords": ["akamai", "open", "edgegrid", "authentication", "client"],
     "type": "library",
     "license": "Apache-2.0",
-    "homepage": "https://github.com/akamai-open/AkamaiOPEN-edgegrid-php",
+    "homepage": "https://github.com/matsumura-koki/AkamaiOPEN-edgegrid-php-client",
     "authors": [
         {
-            "name": "Davey Shafik",
-            "email": "dshafik@akamai.com"
+            "name": "Koki Matsumura",
+            "email": "matsumura-k@tose.co.jp"
         }
     ],
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.0",
         "akamai-open/edgegrid-auth": "2.0.0",
         "guzzlehttp/guzzle": "^7.5.0",
         "psr/log": "^1.0",
@@ -38,7 +38,7 @@
     },
     "config": {
         "platform": {
-            "php": "8.1"
+            "php": "8.0"
         }
     },
     "bin": [
